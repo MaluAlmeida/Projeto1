@@ -14,3 +14,6 @@ CREATE TABLE Usuarios(
 
 -- Consultando os dados do banco
 SELECT * FROM Usuarios;
+
+insert into Usuarios(Id, Nome, Email, Senha)
+VALUES(1, "Maria Luiza", "malu@gmail.com", "1234");
